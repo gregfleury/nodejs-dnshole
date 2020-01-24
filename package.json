@@ -1,0 +1,18 @@
+{
+    "name": "dns-hole",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dns-hole.js",
+    "scripts": {
+        "test": "nodemon bind-update.js --no-stdin",
+        "build": "node ./bind-update.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^1.19.2"
+    },
+    "engines": {
+        "node": ">= 6.0.0"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "bindConfigDir": "/etc/bind",
+    "blockedZone": "blocked.domain",
+    "blackListZoneDB": "dnshole.zones",
+    "zoneFileType": "rpz", 
+    "sources": [{
+            "name": "Badd-Boyz-Hosts",
+            "url": "https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts",
+            "type": "",
+            "format": "two-col"
+        },
+        {   
+            "name": "YoYo-Ad-Servers",
+            "url": "https://pgl.yoyo.org/adservers/serverlist.php?mimetype=plaintext",
+            "type": "",
+            "format": "two-col"
+        },
+        {
+            "name": "KADhosts",
+            "url": "https://raw.githubusercontent.com/azet12/KADhosts/master/KADhosts.txt",
+            "type": "",
+            "format": "two-col"
+        },
+        {
+            "name": "Malware-Download-List",
+            "url": "https://www.malwaredomainlist.com/hostslist/hosts.txt",
+            "type": "",
+            "format": "two-col"
+        },
+        {
+            "name": "NoTrack-Malware",
+            "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt",
+            "type": "",
+            "format": "one-col"
+        },
+        {
+            "name": "NoTrack-Blocklist",
+            "url": "https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt",
+            "type": "",
+            "format": "one-col"
+        },
+        {
+            "name": "Notracking-hosts-GITHub",
+            "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
+            "type": "",
+            "format": "two-col"
+        },
+        {
+            "name": "Notracking-domains-GITHub",
+            "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt",
+            "type": "",
+            "format": "dnsmasq"
+        },
+        {
+            "name": "Local-blacklist",
+            "url": "/pub/temp/bind/nodejs/local-blacklist.txt",
+            "type": "",
+            "format": "one-col"
+        }
+    ]
+}

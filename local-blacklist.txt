@@ -1,0 +1,16 @@
+# greg fleurys hand crafted black list of DNSs
+usabilla.com
+doubleclick.net
+bat.bing.com
+chartbeat.com
+tree.com
+js-sec.indexww.com
+adsafeprotected.com
+googletagservices.com
+mms.cnn.com
+adnxs.com
+summerhamster.com
+ads-twitter.com
+outbrain.com
+bounceexchange.com
+luminatinet.com
